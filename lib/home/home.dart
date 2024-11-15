@@ -46,8 +46,8 @@ class _HomePageState extends State<HomePage> {
                     },
                     title: Text(
                       controller.items[index].title,
-                      style:
-                          TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                      style: const TextStyle(
+                          fontWeight: FontWeight.bold, fontSize: 20),
                     ),
                     subtitle: Text(
                       controller.items[index].subtitle,
